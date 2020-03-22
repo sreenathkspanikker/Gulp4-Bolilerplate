@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Gulp.js-Boilerplate</title>
+        <meta name="Description" content="Based in Seattle, WA, White Rabbit Group is a software development agency that builds web and mobile applications for their clients and integrated partners.">
+
+
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    
+        <link rel="stylesheet" href="css/main.css" />
+
+        <script src="https://kit.fontawesome.com/399a921957.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        {% include "header.html" %}
+        {% block content %} {% endblock %}
+        {% include "footer.html" %}
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

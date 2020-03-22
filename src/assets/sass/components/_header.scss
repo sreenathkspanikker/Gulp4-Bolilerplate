@@ -1,0 +1,13 @@
+header{
+    .navbar{
+        .navbar-nav{
+            @include flex(flex, center, normal);
+            .nav-item{
+                .nav-link{
+                    @include font-family(inherit, 1em, white, normal, normal)
+                }
+            }
+        }
+       
+    }
+}

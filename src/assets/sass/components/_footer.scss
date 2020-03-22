@@ -1,0 +1,7 @@
+footer{
+    padding: 2rem;
+    h3{
+        @include font-family(inherit, 1em, white, normal, normal);
+        margin: 0;
+    }
+}

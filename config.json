@@ -1,0 +1,8 @@
+{
+    "plugins":[
+        "src/assets/js/jQuery.js",
+        "src/assets/js/bootstrap.js",
+        "src/assets/js/test.js",
+        "src/assets/js/test2.js"
+    ]
+}

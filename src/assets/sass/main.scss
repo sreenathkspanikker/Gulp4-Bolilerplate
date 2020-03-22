@@ -1,0 +1,19 @@
+// Bootstrap
+@import "./bootstrap/bootstrap.scss", "./bootstrap/bootstrap-grid.scss";
+
+// Utils
+@import "./utils/variables",  "./utils/mixins";
+
+// Normalise
+@import "./vendors/animate";
+
+// Base
+@import "./core/normalize";
+
+// Component
+@import "./components/header", "./components/footer";
+
+// Pages
+@import "./pages/index";
+
+
